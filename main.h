@@ -3,6 +3,7 @@
 
 #include <stdlib.h>
 #include <stdarg.h>
+#include <limits.h>
 
 /**
  * struct flags - struct containing flags to "turn on"
@@ -35,6 +36,7 @@ int _print_int(va_list l, flags_t *f);
 void _print_number(int n);
 int _print_unsigned(va_list l, flags_t *f);
 int _count_digit(int i);
+int func_digit(va_list list, __attribute__((unused)) flags_t *f);
 
 /* _print_bases */
 int _print_hex(va_list l, flags_t *f);

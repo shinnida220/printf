@@ -11,8 +11,8 @@ int (*_get_print(char s))(va_list, flags_t *)
 	ph func_arr[] = {
 		{'s', _print_string},
 		{'c', _print_char},
-		{'d', _print_int},
-		{'i', _print_int},
+		{'d', func_digit},
+		{'i', func_digit},
 		{'u', _print_unsigned},
 		{'x', _print_hex},
 		{'X', _print_hex_big},
