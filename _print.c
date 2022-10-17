@@ -11,6 +11,7 @@ int _printf(const char *format, ...)
 	va_list args;
 	int (*pfunc)(va_list, flags_t *);
 	const char *p;
+
 	register int count = 0;
 
 	va_start(args, format);

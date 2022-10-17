@@ -24,6 +24,7 @@ int (*_get_print(char s))(va_list, flags_t *)
 		{'p', _print_address},
 		{'%', _print_percent}};
 	int flags = 14;
+
 	register int i;
 
 	for (i = 0; i < flags; i++)
