@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _get_flag - enables flag if _printf finds
- * a flag modifier in the format string supplied
+ * a flag modifier in the format string supplied.
  * @f: pointer to flags struct
  * @s: character holding the flag
  * Return: 1 if a flag has been turned on, 0 otherwise
